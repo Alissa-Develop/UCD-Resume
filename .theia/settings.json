@@ -5,3 +5,10 @@
    "python.linting.flake8Enabled": true,
     "python.terminal.activateEnvironment": false
 }
+
+{
+    "workbench.iconTheme": "theia-file-icons",
+    "editor.acceptSuggestionOnEnter": "smart",
+    "editor.autoClosingBrackets": "always",
+    "editor.wordWrap": "on"
+}
