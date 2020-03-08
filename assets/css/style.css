@@ -41,7 +41,7 @@
 }
 
 .section-heading {
-    font-family: 'Exo', sans-serif;
+    font-family: "Exo", sans-serif;
     font-weight: 300;
     margin-top: 25px;
     margin-bottom: 40px;
@@ -68,6 +68,23 @@ h4 {
 
 .inline-block {
     display: inline-block;
+}
+
+.row-table {
+    display: table;
+}
+
+.section-column {
+    display: table-cell;
+    padding: 0 30px 30px;
+    float: none;
+}
+
+.section-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 40px;
 }
 
 /*--------------------------------------------Heading*/
@@ -116,13 +133,13 @@ header {
     font-size: 0;
 }
 
-#nav {
-    margin: 0;
-}
-
 #nav li {
     font-size: 14px;
     padding: 0;
+}
+
+#nav {
+    margin: 0;
 }
 
 .menuitem {
@@ -134,7 +151,7 @@ header {
 .menuitem a {
     width: 100%;
     text-decoration: none;
-    color: #ffffff;
+    color: #fff;
     height: 120px;
 }
 
@@ -145,7 +162,7 @@ header {
     font-size: 26px;
 }
 
-.menuitem span  {
+.menuitem span {
     display: block;
     width: 100%;
     padding-top: 5px;
@@ -159,11 +176,11 @@ header {
 /*--------------------------------------------Hover.css*/
 
 .hvr-sweep-to-bottom:before {
-    background: rgba(0,0,0,0.2);
+    background: rgba(0, 0, 0, 0.2);
     height: 120px;
 }
 
-/*--------------------------------------------Footer*/
+/* ----------------------------------------Footer */
 
 footer {
     background-color: #525252;
@@ -177,6 +194,7 @@ footer {
     color: #fafafa;
     text-align: center;
     padding-left: 5px;
+    transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
@@ -188,7 +206,6 @@ footer {
 
 .social-links {
     padding-bottom: 15px;
-
 }
 
 .social-links li a i {
@@ -201,6 +218,7 @@ footer {
     text-align: center;
     color: #fafafa;
     background: #8f8f8f;
+    transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
@@ -214,8 +232,7 @@ footer {
     padding: 20px;
 }
 
-
-/*--------------------------------------------Three Reasons*/
+/* ----------------------------------------Three Reasons */
 
 .three-reasons-icon {
     font-size: 26px;
@@ -225,6 +242,8 @@ footer {
 .three-reasons-heading {
     margin-bottom: 15px;
 }
+
+/* ----------------------------------------Personal Info */
 
 .personal-info-item {
     margin-bottom: 20px;
@@ -259,8 +278,7 @@ footer {
     width: 60%;
 }
 
-
-/*--------------------------------------------Skills*/
+/* ----------------------------------------Skills */
 
 .progress {
     position: relative;
@@ -268,11 +286,15 @@ footer {
     margin-bottom: 4px;
 }
 
- .progress-type {
-     position: absolute;
-     left: 0px;
-     font-weight: 400;
-     padding: 3px 30px 3px 10px;
-     color: #fafafa;
-     background-color: rgba(25,25,25,0.2);
- }
+.progress-type {
+    position: absolute;
+    left: 0px;
+    font-weight: 400;
+    padding: 3px 30px 2px 10px;
+    color: #fafafa;
+    background-color: rgba(25, 25, 25, 0.2);
+}
+
+.progress-section {
+    margin: 40px 20px;
+}
